@@ -1,14 +1,17 @@
+//Q1
 let nickname = 'ごっしー'
 let age = 28
 let greet = '私のニックネームは'+ nickname + 'です。年齢は' + age + '歳です。'
 console.log(greet);
 
+//Q2
 let languages = ["JavaScript", "PHP", "Ruby", "Python", "Go"];
 let favoriteLanguage = languages[0]; // JavaScript
 let nextLanguage = languages[3]; // Python
 
 console.log(`私の好きな言語は${favoriteLanguage}です。次は${nextLanguage}を勉強してみたいです。`);
 
+//Q3
 let user = {
   name: 'John',
   age: 26,
@@ -16,6 +19,7 @@ let user = {
   favorite: 'card',
 };
 console.log(user.age);
+
 
 let playerList = [
   {
